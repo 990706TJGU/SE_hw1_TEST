@@ -1,0 +1,41 @@
+[debug] [2018-05-19T06:17:33.321Z] ----------------------------------------------------------------------
+[debug] [2018-05-19T06:17:33.323Z] Command:       E:\node.exe C:\Users\TJGu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-19T06:17:33.323Z] CLI Version:   3.18.4
+[debug] [2018-05-19T06:17:33.323Z] Platform:      win32
+[debug] [2018-05-19T06:17:33.324Z] Node Version:  v8.11.1
+[debug] [2018-05-19T06:17:33.324Z] Time:          Sat May 19 2018 14:17:33 GMT+0800 (台北標準時間)
+[debug] [2018-05-19T06:17:33.324Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-19T06:17:33.333Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-19T06:17:33.333Z] > authorizing via signed-in user
+[debug] [2018-05-19T06:17:33.335Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-19T06:17:33.335Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/WgTLrQ5PZ65D2_YKB8oh_A2DnSnN_bTYxUxJuH4dgnOdVj0y00fqjzwHGWMKaSZm',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat May 19 2018 14:17:33 GMT+0800 (台北標準時間)
+[debug] [2018-05-19T06:17:33.546Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-19T06:17:33.553Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/project-9ff11  
+  
+ Sat May 19 2018 14:17:33 GMT+0800 (台北標準時間)
+[debug] [2018-05-19T06:17:34.300Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-19T06:17:34.301Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/project-9ff11/tokens  
+  
+ Sat May 19 2018 14:17:34 GMT+0800 (台北標準時間)
+[debug] [2018-05-19T06:17:35.529Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-19T06:17:35.530Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/project-9ff11  
+  
+ Sat May 19 2018 14:17:35 GMT+0800 (台北標準時間)
+[debug] [2018-05-19T06:17:36.422Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\TJGu'...
+[info] 
+[debug] [2018-05-19T06:17:36.424Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/456493136521/clients/_:getWebAppConfig  
+  
+ Sat May 19 2018 14:17:36 GMT+0800 (台北標準時間)
+[debug] [2018-05-19T06:17:37.090Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
